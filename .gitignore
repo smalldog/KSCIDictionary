@@ -1,0 +1,7 @@
+.DS_Store
+*.swp
+*.o
+*.class
+Demo/KSCIDictionary.xcodeproj/project.xcworkspace
+Demo/KSCIDictionary.xcodeproj/xcuserdata
+comment

@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C32AFE51593433F0084E706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32AFE41593433F0084E706 /* UIKit.framework */; };
+		8C32AFE71593433F0084E706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32AFE61593433F0084E706 /* Foundation.framework */; };
+		8C32AFE91593433F0084E706 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32AFE81593433F0084E706 /* CoreGraphics.framework */; };
+		8C32AFEF1593433F0084E706 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C32AFED1593433F0084E706 /* InfoPlist.strings */; };
+		8C32AFF11593433F0084E706 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C32AFF01593433F0084E706 /* main.m */; };
+		8C32AFF51593433F0084E706 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C32AFF41593433F0084E706 /* AppDelegate.m */; };
+		8C32AFFD1593433F0084E706 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32AFFC1593433F0084E706 /* SenTestingKit.framework */; };
+		8C32AFFE1593433F0084E706 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32AFE41593433F0084E706 /* UIKit.framework */; };
+		8C32AFFF1593433F0084E706 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C32AFE61593433F0084E706 /* Foundation.framework */; };
+		8C32B0071593433F0084E706 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8C32B0051593433F0084E706 /* InfoPlist.strings */; };
+		8C32B00A1593433F0084E706 /* KSCIDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C32B0091593433F0084E706 /* KSCIDictionaryTests.m */; };
+		8C32B016159343510084E706 /* KSCIDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C32B015159343510084E706 /* KSCIDictionary.m */; };
+		8C32B02015934F4B0084E706 /* dictionary.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8C32B01F15934F4B0084E706 /* dictionary.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8C32B0001593433F0084E706 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8C32AFD71593433F0084E706 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C32AFDF1593433F0084E706;
+			remoteInfo = KSCIDictionary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8C32AFE01593433F0084E706 /* KSCIDictionary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KSCIDictionary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C32AFE41593433F0084E706 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8C32AFE61593433F0084E706 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8C32AFE81593433F0084E706 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8C32AFEC1593433F0084E706 /* KSCIDictionary-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSCIDictionary-Info.plist"; sourceTree = "<group>"; };
+		8C32AFEE1593433F0084E706 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C32AFF01593433F0084E706 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8C32AFF21593433F0084E706 /* KSCIDictionary-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KSCIDictionary-Prefix.pch"; sourceTree = "<group>"; };
+		8C32AFF31593433F0084E706 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8C32AFF41593433F0084E706 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8C32AFFB1593433F0084E706 /* KSCIDictionaryTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KSCIDictionaryTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8C32AFFC1593433F0084E706 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8C32B0041593433F0084E706 /* KSCIDictionaryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KSCIDictionaryTests-Info.plist"; sourceTree = "<group>"; };
+		8C32B0061593433F0084E706 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8C32B0081593433F0084E706 /* KSCIDictionaryTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSCIDictionaryTests.h; sourceTree = "<group>"; };
+		8C32B0091593433F0084E706 /* KSCIDictionaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSCIDictionaryTests.m; sourceTree = "<group>"; };
+		8C32B014159343510084E706 /* KSCIDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSCIDictionary.h; sourceTree = "<group>"; };
+		8C32B015159343510084E706 /* KSCIDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSCIDictionary.m; sourceTree = "<group>"; };
+		8C32B01F15934F4B0084E706 /* dictionary.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = dictionary.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C32AFDD1593433F0084E706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32AFE51593433F0084E706 /* UIKit.framework in Frameworks */,
+				8C32AFE71593433F0084E706 /* Foundation.framework in Frameworks */,
+				8C32AFE91593433F0084E706 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C32AFF71593433F0084E706 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32AFFD1593433F0084E706 /* SenTestingKit.framework in Frameworks */,
+				8C32AFFE1593433F0084E706 /* UIKit.framework in Frameworks */,
+				8C32AFFF1593433F0084E706 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8C32AFD51593433F0084E706 = {
+			isa = PBXGroup;
+			children = (
+				8C32AFEA1593433F0084E706 /* KSCIDictionary */,
+				8C32B0021593433F0084E706 /* KSCIDictionaryTests */,
+				8C32AFE31593433F0084E706 /* Frameworks */,
+				8C32AFE11593433F0084E706 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8C32AFE11593433F0084E706 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8C32AFE01593433F0084E706 /* KSCIDictionary.app */,
+				8C32AFFB1593433F0084E706 /* KSCIDictionaryTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8C32AFE31593433F0084E706 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8C32AFE41593433F0084E706 /* UIKit.framework */,
+				8C32AFE61593433F0084E706 /* Foundation.framework */,
+				8C32AFE81593433F0084E706 /* CoreGraphics.framework */,
+				8C32AFFC1593433F0084E706 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8C32AFEA1593433F0084E706 /* KSCIDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				8C32B013159343510084E706 /* Classes */,
+				8C32AFF31593433F0084E706 /* AppDelegate.h */,
+				8C32AFF41593433F0084E706 /* AppDelegate.m */,
+				8C32B01F15934F4B0084E706 /* dictionary.plist */,
+				8C32AFEB1593433F0084E706 /* Supporting Files */,
+			);
+			path = KSCIDictionary;
+			sourceTree = "<group>";
+		};
+		8C32AFEB1593433F0084E706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C32AFEC1593433F0084E706 /* KSCIDictionary-Info.plist */,
+				8C32AFED1593433F0084E706 /* InfoPlist.strings */,
+				8C32AFF01593433F0084E706 /* main.m */,
+				8C32AFF21593433F0084E706 /* KSCIDictionary-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C32B0021593433F0084E706 /* KSCIDictionaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				8C32B0081593433F0084E706 /* KSCIDictionaryTests.h */,
+				8C32B0091593433F0084E706 /* KSCIDictionaryTests.m */,
+				8C32B0031593433F0084E706 /* Supporting Files */,
+			);
+			path = KSCIDictionaryTests;
+			sourceTree = "<group>";
+		};
+		8C32B0031593433F0084E706 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C32B0041593433F0084E706 /* KSCIDictionaryTests-Info.plist */,
+				8C32B0051593433F0084E706 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C32B013159343510084E706 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8C32B014159343510084E706 /* KSCIDictionary.h */,
+				8C32B015159343510084E706 /* KSCIDictionary.m */,
+			);
+			name = Classes;
+			path = ../../Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8C32AFDF1593433F0084E706 /* KSCIDictionary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C32B00D1593433F0084E706 /* Build configuration list for PBXNativeTarget "KSCIDictionary" */;
+			buildPhases = (
+				8C32AFDC1593433F0084E706 /* Sources */,
+				8C32AFDD1593433F0084E706 /* Frameworks */,
+				8C32AFDE1593433F0084E706 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KSCIDictionary;
+			productName = KSCIDictionary;
+			productReference = 8C32AFE01593433F0084E706 /* KSCIDictionary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8C32AFFA1593433F0084E706 /* KSCIDictionaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8C32B0101593433F0084E706 /* Build configuration list for PBXNativeTarget "KSCIDictionaryTests" */;
+			buildPhases = (
+				8C32AFF61593433F0084E706 /* Sources */,
+				8C32AFF71593433F0084E706 /* Frameworks */,
+				8C32AFF81593433F0084E706 /* Resources */,
+				8C32AFF91593433F0084E706 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8C32B0011593433F0084E706 /* PBXTargetDependency */,
+			);
+			name = KSCIDictionaryTests;
+			productName = KSCIDictionaryTests;
+			productReference = 8C32AFFB1593433F0084E706 /* KSCIDictionaryTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8C32AFD71593433F0084E706 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = algoritmico;
+			};
+			buildConfigurationList = 8C32AFDA1593433F0084E706 /* Build configuration list for PBXProject "KSCIDictionary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8C32AFD51593433F0084E706;
+			productRefGroup = 8C32AFE11593433F0084E706 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8C32AFDF1593433F0084E706 /* KSCIDictionary */,
+				8C32AFFA1593433F0084E706 /* KSCIDictionaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8C32AFDE1593433F0084E706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32AFEF1593433F0084E706 /* InfoPlist.strings in Resources */,
+				8C32B02015934F4B0084E706 /* dictionary.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C32AFF81593433F0084E706 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32B0071593433F0084E706 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C32AFF91593433F0084E706 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8C32AFDC1593433F0084E706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32AFF11593433F0084E706 /* main.m in Sources */,
+				8C32AFF51593433F0084E706 /* AppDelegate.m in Sources */,
+				8C32B016159343510084E706 /* KSCIDictionary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8C32AFF61593433F0084E706 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C32B00A1593433F0084E706 /* KSCIDictionaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8C32B0011593433F0084E706 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8C32AFDF1593433F0084E706 /* KSCIDictionary */;
+			targetProxy = 8C32B0001593433F0084E706 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8C32AFED1593433F0084E706 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C32AFEE1593433F0084E706 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8C32B0051593433F0084E706 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8C32B0061593433F0084E706 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8C32B00B1593433F0084E706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8C32B00C1593433F0084E706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8C32B00E1593433F0084E706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSCIDictionary/KSCIDictionary-Prefix.pch";
+				INFOPLIST_FILE = "KSCIDictionary/KSCIDictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8C32B00F1593433F0084E706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSCIDictionary/KSCIDictionary-Prefix.pch";
+				INFOPLIST_FILE = "KSCIDictionary/KSCIDictionary-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8C32B0111593433F0084E706 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSCIDictionary.app/KSCIDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSCIDictionary/KSCIDictionary-Prefix.pch";
+				INFOPLIST_FILE = "KSCIDictionaryTests/KSCIDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8C32B0121593433F0084E706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KSCIDictionary.app/KSCIDictionary";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KSCIDictionary/KSCIDictionary-Prefix.pch";
+				INFOPLIST_FILE = "KSCIDictionaryTests/KSCIDictionaryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8C32AFDA1593433F0084E706 /* Build configuration list for PBXProject "KSCIDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C32B00B1593433F0084E706 /* Debug */,
+				8C32B00C1593433F0084E706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C32B00D1593433F0084E706 /* Build configuration list for PBXNativeTarget "KSCIDictionary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C32B00E1593433F0084E706 /* Debug */,
+				8C32B00F1593433F0084E706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8C32B0101593433F0084E706 /* Build configuration list for PBXNativeTarget "KSCIDictionaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C32B0111593433F0084E706 /* Debug */,
+				8C32B0121593433F0084E706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8C32AFD71593433F0084E706 /* Project object */;
+}
