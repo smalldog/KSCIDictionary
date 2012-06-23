@@ -1,6 +1,6 @@
 # KSCIDictionary
 
-Case-insensitive `NSDictionary` and `NSMutableDictionary` wrappers.
+Provides case-insensitive dictionary operations (named after `NSDictionary` and `NSMutableDictionary` methods) while keeping track of the originally inserted keys.
 
 ## Known issues
 
