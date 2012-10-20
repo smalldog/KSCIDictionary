@@ -2,6 +2,4 @@
 
 Provides case-insensitive dictionary operations (named after `NSDictionary` and `NSMutableDictionary` methods) while keeping track of the originally inserted keys.
 
-## Known issues
-
-ARC support.
+`KSCIDictionary` works with both ARC and non-ARC projects.

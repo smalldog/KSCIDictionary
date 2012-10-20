@@ -52,8 +52,8 @@ static inline void KSCIDictionarySetObjectAndMapping(NSMutableDictionary *dictio
     NSMutableDictionary *_mapping;
 }
 
-@property (nonatomic, retain) NSMutableDictionary *backing;
-@property (nonatomic, retain) NSMutableDictionary *mapping;
+@property (nonatomic, strong) NSMutableDictionary *backing;
+@property (nonatomic, strong) NSMutableDictionary *mapping;
 
 @end
 
@@ -233,7 +233,7 @@ static inline void KSCIDictionarySetObjectAndMapping(NSMutableDictionary *dictio
     self.backing = nil;
     self.mapping = nil;
 
-    [super dealloc];
+    [super ah_dealloc];
 }
 
 - (NSUInteger)count
